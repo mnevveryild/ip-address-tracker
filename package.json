@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass": "sass --watch scss/main.scss:css/style.css --style expanded",
+    "sass:build": "sass scss/main.scss:css/style.css --style compressed"
   },
   "devDependencies": {
     "sass": "^1.98.0",
@@ -16,4 +18,8 @@
   "dependencies": {
     "leaflet": "^1.9.4"
   }
+
+  
+  
+
 }
