@@ -99,7 +99,6 @@ body {
   border-right: none;     
 }
 
-
 .articles h3{
   margin: 0 0 12px 0;
   overflow-wrap: anywhere;      /* çok uzun kelime/domain/IP varsa da kırsın */
@@ -131,3 +130,138 @@ body {
   z-index: 1;
 }
 
+// CSS ile tüm marker'ları boyutlandır (geçici çözüm)
+.leaflet-marker-icon {
+    width: 41px !important;
+    height: 50px !important;
+    margin-left: -20px !important;
+    margin-top: -66px !important;
+}
+/*cursor değiştirme*/
+body {
+    cursor: url('custom-cursor.png'), auto;
+}
+
+/* Farklı cursor tipleri için */
+a:hover {
+    cursor: grab; /* El işareti */
+}
+
+button:hover {
+    cursor: grab; /* Tutma işareti */
+}
+
+input:hover {
+    cursor: grab; /* Yazı yazma işareti */
+}
+
+@media (max-width: 700px) {
+  .head {
+    min-height: 200px;
+    background-image: url('/images/pattern-bg-mobile.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.07);
+  }
+
+  .title h3 {
+    font-size: 1.2rem;
+    padding: 28px 0 12px 0;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 94vw;
+    max-width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.07);
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+    position: static;
+  }
+
+  .form-control {
+    flex: 1 1 auto;
+    width: 100%;
+    padding: 13px 12px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 12px 0 0 12px;
+    background: #fff;
+  }
+
+  .btn-src {
+    flex: 0 0 auto;
+    background-color: hsl(0, 0%, 17%);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    padding: 0 15px;
+    border-radius: 0 12px 12px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .form-control {
+    padding: 13px 12px;
+    font-size: 0.95rem;
+    border-radius: 12px 0 0 12px;
+  }
+
+  .btn-src {
+    font-size: 20px;
+    padding: 0 13px;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .information {
+    max-width: 350px;
+    width: 94vw;
+    margin: 18px auto 0 auto;
+    border-radius: 12px;
+    padding: 8px 0 1px 0;
+    min-height: unset;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.07);
+  }
+
+  .articles {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article {
+    border-bottom: 1px solid #ececec;
+    border-right: none;
+    padding: 10px 15px 7px 15px;
+    text-align: center;
+  }
+  .article:last-child {
+    border-bottom: none;
+  }
+
+  .articles h3 {
+    font-size: 0.72rem;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+  }
+
+  .articles p {
+    font-size: 0.97rem;
+  }
+
+  #map {
+    width: 100vw;
+    height: calc(100vh - 330px);
+    border-radius: 0 0 16px 16px;
+    margin: 0 auto;
+  }
+}
