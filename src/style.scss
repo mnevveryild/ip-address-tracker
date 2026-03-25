@@ -73,7 +73,7 @@ body {
   left: 50%;
   bottom: -85px;
   transform: translateX(-50%); /* ortalamak için */
-  width: min(1100px, calc(100% - 48px)); // genişlik 1100px'i geçmesin, ekran küçüldüğünde ise 48px boşluk bırakarak küçülsün
+  width: min(1100px, calc(100% - 48px)); /* genişlik 1100px'i geçmesin, ekran küçüldüğünde ise 48px boşluk bırakarak küçülsün */
   height: 180px;
   background-color: #ffffff;
   border-radius: 14px;
@@ -82,41 +82,46 @@ body {
 }
 
 .articles{
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
-  gap:3rem;
-  align-items:center;
-  margin:40px 100px 40px 150px;
+  display: grid; /*eşit genişlikte olsun istiyoruz */
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* taşmayı engeller */
+  gap: 0; /* ki çizgiklerle ayıracağız*/
+  align-items: start;
+  margin: 40px 60px;
 }
 
+.articles .article{
+  padding: 0 32px;
+  border-right: 1px solid hsl(0, 0%, 80%);
+}
+
+/* son kolonda çizgi olmasın */
+.articles .article:last-child{
+  border-right: none;     
+}
+
+
 .articles h3{
-  color:hsl(0, 0%, 58%);
+  margin: 0 0 12px 0;
+  overflow-wrap: anywhere;      /* çok uzun kelime/domain/IP varsa da kırsın */
+  color: hsl(0, 0%, 58%);
   font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:480;
-  font-style: normal;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 12px;
   letter-spacing: 2px;
-  border-right: 1px solid hsl(0, 0%, 58%);
-  padding-right: 20px;
+  border-right: none;     /* varsa iptal */
+  padding-right: 0;       /* varsa iptal */
 }
 
 .articles p{
-  color:hsl(0, 0%, 17%);
+  margin: 0;
+  white-space: normal;          /* tek satıra zorlamasın */
+  overflow-wrap: anywhere;      /* çok uzun kelime/domain/IP varsa da kırsın */
+  color: hsl(0, 0%, 17%);
   font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:480;
-  font-style: normal;
-  font-size: 32px;
-  letter-spacing: 2px;
-
-
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0px;
 }
-
-.articles .isp h3{
-  border-right: 1px solid hsl(0, 0%, 100%);
-}
-
 
 
 
