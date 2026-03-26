@@ -9,6 +9,17 @@ const API_GEOLOCATION = 'https://api.ipgeolocation.io/ipgeo?apiKey=add46e1145b44
 const searchbtn = document.getElementById("btn-src");
 let map = null; // Global harita değişkeni
 
+
+const ipInput = document.getElementById("ip-search");
+
+// ENTER tuşunu dinle, butonu tetikle
+ipInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        searchbtn.click();
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
             loadmap();
         });
@@ -65,6 +76,7 @@ function initmap(lat, lon){
 
 searchbtn.addEventListener("click", function () {
   const ipaddress = document.getElementById("ip-search").value.trim();
+
 
     if (ipaddress === "") {
         alert("please enter a valid IP address");
