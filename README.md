@@ -2,7 +2,7 @@
 <h1 align="center">🗺️ IP Address Tracker 🗺️</h1>
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">
-    <img src="./public/screenshoot.png" alt="Project Screenshot" width="80%" />
+    <img src="./public/şmages/screenshoot.png" alt="Project Screenshot" width="80%" />
   </a>
 </p>
 <p align="center">
@@ -41,12 +41,12 @@ Users should be able to:
 ### 🖼️ Screenshots
 
 <p float="left">
-  <img src="./public/screenshoot.png" alt="screenshot" width="49%" />
-  <img src="./public/screenshoot-2.png" alt="screenshot2" width="49%" />
+  <img src="./public/images/screenshoot.png" alt="screenshot" width="49%" />
+  <img src="./public/images/screenshoot-2.png" alt="screenshot2" width="49%" />
 </p>
 
-![](./public/screenshoot.png)
-![](./public/screenshoot-2.png)
+![](./public/images/screenshoot.png)
+![](./public/images/screenshoot-2.png)
 
 - **Solution URL**: [https://your-solution-url.com](https://your-solution-url.com)
 - **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com)
