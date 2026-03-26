@@ -57,7 +57,7 @@ function initmap(lat, lon){
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    L.marker([lat, lon]).addTo(map);
+    L.marker([lat, lon], { icon: myIcon }).addTo(map); // ikon resmini değiştirmek için myıcon tanımladım ve markerin olduğu bu kısma yerleştirdim.
  
 }
 
@@ -85,4 +85,10 @@ searchbtn.addEventListener("click", function () {
 
 
 });
+
+const myIcon = L.icon({ // ikon resmi ekmek için yazılan script
+  iconUrl: '/public/images/marker-icon-2x.png', 
+  iconSize:     [41, 50], 
+  iconAnchor:   [16, 32],
+})
 
