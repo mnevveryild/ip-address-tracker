@@ -2,7 +2,7 @@
 <h1 align="center">🗺️ IP Address Tracker 🗺️</h1>
 <p align="center">
   <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">
-    <img src="./public/şmages/screenshoot.png" alt="Project Screenshot" width="80%" />
+    <img src="./public/images/screenshoot.png" alt="Project Screenshot" width="80%" />
   </a>
 </p>
 <p align="center">
