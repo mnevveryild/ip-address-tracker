@@ -45,9 +45,6 @@ Users should be able to:
   <img src="./public/images/screenshoot-2.png" alt="screenshot2" width="49%" />
 </p>
 
-![](./public/images/screenshoot.png)
-![](./public/images/screenshoot-2.png)
-
 - **Solution URL**: [https://your-solution-url.com](https://your-solution-url.com)
 - **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com)
 
