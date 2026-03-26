@@ -1,150 +1,133 @@
-# Frontend Mentor - IP Address Tracker
+# Frontend Mentor - IP address tracker solution
 
-![Design preview for the IP address tracker coding challenge](preview.jpg)
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
----
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+### The challenge
 
----
-
-## The Challenge
-
-Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible.  
-To get the IP Address locations, you'll be using the [IP Geolocation API by IPify](https://www.ipify.org/).
-
-You can use any tools you like to help you complete the challenge.  
-So if you've got something you'd like to practice, feel free to give it a go.
-
-### Your users should be able to:
+Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
----
+### Screenshot
 
-⚠️ **IMPORTANT** ⚠️  
-To use the IP Geolocation API by IPify, you'll need to sign up for a free account.  
-You won't need to add any card details to do this and it's a very quick process. This will give you an API Key.
+![](./public/screenshoot.png)
+![](./public/screenshoot-2.png)
 
-For mapping, we recommend using [LeafletJS](https://leafletjs.com/).  
-It's free to use and doesn't require an API Key. If you decide to use another API (like Google Maps or Mapbox), be sure to secure your API keys!
+### Links
 
-- [API Key best practices from Google Developers](https://developers.google.com/maps/api-key-best-practices)
-- [How to use Mapbox securely](https://docs.mapbox.com/help/troubleshooting/how-to-use-mapbox-securely/)
+- Solution URL:(https://your-solution-url.com)
+- Live Site URL:(https://your-live-site-url.com)
 
-> Exposing your API Key publicly can lead to other people using it for their own applications!  
-> Please be sure you read the guides thoroughly and implement the necessary precautions.
+## My process
 
-**We don't take any responsibility if you expose your API Key while completing the challenge and have not secured it.**
+### Built with
 
----
+## Features & Approaches
+- Semantic HTML5 markup
+- CSS custom properties (variables)
+- Flexbox & CSS Grid layout
+- Mobile-first workflow
+- Advanced styling with SCSS
+- Modern CSS-in-JS with [Styled Components](https://styled-components.com/)
 
-Want some support on the challenge?  
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## JavaScript & Frameworks
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://reactjs.org/) – JavaScript library for building user interfaces
+- [Next.js](https://nextjs.org/) – React framework for server-side rendering and static site generation
+- [Node.js](https://nodejs.org/) – JavaScript runtime for server-side development
 
----
+## Maps & API Integration
+- [Leaflet.js](https://leafletjs.com/) – Open-source JavaScript library for interactive maps
+- [ipify API](https://www.ipify.org/) – API for retrieving IP address
 
-## Where to find everything
 
-Your task is to build out the project based on the designs inside the `/design` folder. You will find both a mobile and a desktop version.
+### What I Learned
 
-- The designs are in JPG format.  
-- Use your best judgment for `font-size`, `padding` and `margin`.
-- For the Figma file, [subscribe as a PRO member](https://www.frontendmentor.io/pro).
-- All assets are in the `/images` folder.
-- There is also a `style-guide.md` file with palette and fonts info.
+While working on this project, I gained hands-on experience and deeper understanding in several areas:
 
----
+- **SCSS**: Learned what SCSS is and how to use it to write more efficient and organized styles.
+- **CSS Grid**: Improved my understanding of the CSS Grid system for creating responsive and flexible layouts.
+- **min-width Usage**: Practiced using `min-width` to enhance layout responsiveness.
+- **translateX**: Explored how to use `translateX` for positioning elements and creating smooth transitions.
+- **z-index**: Understood proper usage of `z-index` to manage the stacking order of elements.
+- **overflow-wrap**: Applied `overflow-wrap` to handle word breaking and prevent overflow issues.
+- **Cursor Styling**: Learned how to change the cursor style to improve UI interactivity.
+- **@media Queries**: Refined skills in using media queries to make the interface truly responsive.
+- **Leaflet.js**: Learned what Leaflet.js is, how to integrate interactive maps into web applications, and the basics of working with map providers and obtaining an API key if needed.
+- **Working with APIs**: Gained experience in connecting to APIs (like ipify) and handling data fetching.
+- **Effective JavaScript Usage**: Enhanced my understanding of JavaScript—structuring code for maintainability and designing user interfaces with JS logic.
 
-## Using AI coding assistants
+Below is an example code snippet illustrating one of the concepts (e.g., a CSS Grid layout):
 
-We've included two files to help you if you're using AI coding assistants:
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 320px;
+  overflow-wrap: break-word;
+}
+```
 
-- `AGENTS.md` – Detailed instructions for AI assistants.
-- `CLAUDE.md` – Claude-based pointer file.
+And a simple @media query example:
 
-**How to use them:** You don't need to do anything! They're auto-detected by most AI coding tools.
+```css
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+```
 
-> **Note:** These files help you _learn_, not do the work for you. AI is instructed to ask, hint, and explain—not solve everything for you!
+Working through these challenges helped reinforce my knowledge and skills in modern frontend development!
 
----
+### Continued development
 
-## Building your project
 
-Feel free to use any workflow you like. Below is a suggested process (follow as much as you want):
+- Build more projects focused on mastering layout structures using CSS Grid and Flexbox.
+- Practice creating complex and responsive layouts to gain deeper confidence in modern CSS techniques.
+- Continue refining my understanding of frontend best practices and UI component layout strategies.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/)
-2. Configure your repository to publish your code to a web address.
-3. Review the designs and plan your CSS classes to create reusable styles.
-4. Structure your content with HTML before adding any CSS.
-5. Write out base styles (font-family, font-size, etc).
-6. Add styles top to bottom, one section at a time.
+I believe that working on additional projects will help me become more comfortable and proficient in building well-structured, responsive web interfaces.
 
----
 
-## Deploying your project
+### Useful resources
 
-**Recommended free hosts:**
+- [Kısaca SCSS - Medium](https://medium.com/bursa-i-o/k%C4%B1saca-scss-f026566182cd) – A helpful Turkish article that gave me a clear understanding of SCSS basics and usage.
+- [Leaflet.js Documentation](https://leafletjs.com/) – The official documentation, which was essential for learning how to implement interactive maps.
+- [GitHub Copilot](https://github.com/features/copilot) – An AI coding assistant that accelerated my workflow and helped find solutions faster.
+- [CSS Border & Outline Generator](https://html-css-js.com/css/generator/border-outline/) – An online tool I used for easily generating CSS border and outline styles.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### AI Collaboration
 
-[More about recommended trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosts-19b8f3bad8f)
+During this project, I made effective use of AI-powered tools to streamline development and planning:
 
----
+- **GitHub Copilot**: I used Copilot extensively for code completion, writing boilerplate, and accelerating the development workflow. It was particularly helpful in suggesting efficient solutions and reducing repetitive coding tasks.
+- **Blackbox AI**: I leveraged Blackbox AI for project planning and brainstorming. It helped me outline features, clarify implementation steps, and consider alternatives during the architectural phase.
 
-## Create a custom `README.md`
+Using these AI assistants allowed me to work more efficiently and focus on solving complex problems instead of spending time on repetitive tasks. Both tools provided valuable suggestions, although I always reviewed and validated the code and plans they generated.
 
-Please overwrite this `README.md` with a custom one.
+## Author
 
-- We provided a template: [`README-template.md`](./README-template.md)
-- Fill it out, then delete this file and rename the template to `README.md`.
+- Website - [Münevver Yıldırım](https://mnevveryild.github.io/my-web-site/)
+- Frontend Mentor - [@mnevveryild](https://www.frontendmentor.io/profile/mnevveryild)
 
-_A good custom README helps you explain your project and reflect on your learnings!_
-
----
-
-## Submitting your solution
-
-Submit your solution on the platform to share with the community.  
-[Complete guide to submitting solutions](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248)
-
-> If you want feedback, ask specific and detailed questions when submitting!
-
----
-
-## Sharing your solution
-
-Share your solution on:
-
-1. The **#finished-projects** channel in the [community](https://www.frontendmentor.io/community)
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) with your repo/live URLs
-3. LinkedIn, etc.
-4. Blog about your experience
-
-We provide sharing templates. Please edit them and ask specific feedback questions when sharing!
-
----
-
-## Got feedback for us?
-
-We love feedback!  
-Please email hi@frontendmentor.io with anything you'd like to share.
-
-This challenge is completely free—please share it with anyone who might find it useful.
-
-**Have fun building! 🚀**
-
----
-
-# ip-address-tracker
