@@ -5,12 +5,6 @@
     <img src="./public/images/screenshoot.png" alt="Project Screenshot" width="80%" />
   </a>
 </p>
-<p align="center">
-  <a href="https://your-live-site-url.com"><b>Live Demo</b></a> |
-  <a href="https://your-solution-url.com">Frontend Mentor Solution</a>
-</p>
-
----
 
 ## 📚 Table of Contents
 
@@ -26,7 +20,7 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
----
+
 
 ## 📝 Overview
 
@@ -40,18 +34,19 @@ Users should be able to:
 
 ### 🖼️ Screenshots
 
-<p float="left">
-  <img src="./public/images/screenshoot.png" alt="screenshot" width="49%" />
-  <img src="./public/images/screenshoot-2.png" alt="screenshot2" width="49%" />
+<p float="left" align="center">
+  <!-- Desktop view screenshot -->
+  <img src="./public/images/screenshoot.png" alt="Desktop view screenshot" width="70%" style="margin-right: 20px; border: 1px solid #ddd; border-radius: 6px;" />
+
+  <!-- Mobile view screenshot -->
+  <img src="./public/images/screenhoot-2.png" alt="Mobile view screenshot" width="28%" style="border: 1px solid #ddd; border-radius: 6px; vertical-align: top;" />
 </p>
 
+- **Left:** Desktop view  
+- **Right:** Mobile view
+
 - **Solution URL**: [https://your-solution-url.com](https://your-solution-url.com)
-- **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com)
-
----
-
-## 🛠️ My Process
-
+- **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com) 
 ### 🏗 Built With
 
 #### **Features & Approaches**
@@ -72,7 +67,6 @@ Users should be able to:
 - [Leaflet.js](https://leafletjs.com/)
 - [ipify API](https://www.ipify.org/)
 
----
 
 ### 🚀 What I Learned
 
@@ -124,7 +118,6 @@ While working on this project, I gained hands-on experience and deeper understan
 - Practice creating complex and responsive layouts.
 - Continue refining frontend best practices and UI component layout strategies.
 
----
 
 ### 📎 Useful Resources
 
@@ -133,7 +126,7 @@ While working on this project, I gained hands-on experience and deeper understan
 - [GitHub Copilot](https://github.com/features/copilot)  
 - [CSS Border & Outline Generator](https://html-css-js.com/css/generator/border-outline/)  
 
----
+
 
 ### 🤖 AI Collaboration
 
@@ -144,7 +137,6 @@ During this project, I made effective use of AI-powered tools to streamline deve
 
 > Both tools provided valuable suggestions, although I always reviewed and validated the code and plans they generated.
 
----
 
 ## 👩‍💻 Author
 
