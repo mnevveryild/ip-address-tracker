@@ -1,83 +1,101 @@
-# Frontend Mentor - IP address tracker solution
+<!-- PROJECT HEADER -->
+<h1 align="center">🗺️ IP Address Tracker 🗺️</h1>
+<p align="center">
+  <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">
+    <img src="./public/screenshoot.png" alt="Project Screenshot" width="80%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://your-live-site-url.com"><b>Live Demo</b></a> |
+  <a href="https://your-solution-url.com">Frontend Mentor Solution</a>
+</p>
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+---
 
-## Table of contents
+## 📚 Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The Challenge](#the-challenge)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Useful Resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+---
 
-## Overview
+## 📝 Overview
 
-### The challenge
+### 🎯 The Challenge
 
 Users should be able to:
+- ✅ View the optimal layout for each page depending on their device's screen size
+- ✅ See hover states for all interactive elements on the page
+- ✅ See their own IP address on the map on the initial page load
+- ✅ Search for any IP addresses or domains and see the key information and location
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+### 🖼️ Screenshots
 
-### Screenshot
+<p float="left">
+  <img src="./public/screenshoot.png" alt="screenshot" width="49%" />
+  <img src="./public/screenshoot-2.png" alt="screenshot2" width="49%" />
+</p>
 
-![](./public/screenshoot.png)
-![](./public/screenshoot-2.png)
+### 🔗 Links
 
-### Links
+- **Solution URL**: [https://your-solution-url.com](https://your-solution-url.com)
+- **Live Site URL**: [https://your-live-site-url.com](https://your-live-site-url.com)
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+---
 
-## My process
+## 🛠️ My Process
 
-### Built with
+### 🏗 Built With
 
-## Features & Approaches
-- Semantic HTML5 markup
-- CSS custom properties (variables)
-- Flexbox & CSS Grid layout
-- Mobile-first workflow
-- Advanced styling with SCSS
+#### **Features & Approaches**
+- Semantic HTML5 markup  
+- CSS custom properties (variables)  
+- Flexbox & CSS Grid layout  
+- Mobile-first workflow  
+- Advanced styling with SCSS  
 - Modern CSS-in-JS with [Styled Components](https://styled-components.com/)
 
-## JavaScript & Frameworks
+#### **JavaScript & Frameworks**
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [React](https://reactjs.org/) – JavaScript library for building user interfaces
-- [Next.js](https://nextjs.org/) – React framework for server-side rendering and static site generation
-- [Node.js](https://nodejs.org/) – JavaScript runtime for server-side development
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/)
 
-## Maps & API Integration
-- [Leaflet.js](https://leafletjs.com/) – Open-source JavaScript library for interactive maps
-- [ipify API](https://www.ipify.org/) – API for retrieving IP address
+#### **Maps & API Integration**
+- [Leaflet.js](https://leafletjs.com/)
+- [ipify API](https://www.ipify.org/)
 
+---
 
-### What I Learned
+### 🚀 What I Learned
 
 While working on this project, I gained hands-on experience and deeper understanding in several areas:
 
-- **SCSS**: Learned what SCSS is and how to use it to write more efficient and organized styles.
-- **CSS Grid**: Improved my understanding of the CSS Grid system for creating responsive and flexible layouts.
-- **min-width Usage**: Practiced using `min-width` to enhance layout responsiveness.
-- **translateX**: Explored how to use `translateX` for positioning elements and creating smooth transitions.
-- **z-index**: Understood proper usage of `z-index` to manage the stacking order of elements.
-- **overflow-wrap**: Applied `overflow-wrap` to handle word breaking and prevent overflow issues.
-- **Cursor Styling**: Learned how to change the cursor style to improve UI interactivity.
-- **@media Queries**: Refined skills in using media queries to make the interface truly responsive.
-- **Leaflet.js**: Learned what Leaflet.js is, how to integrate interactive maps into web applications, and the basics of working with map providers and obtaining an API key if needed.
-- **Working with APIs**: Gained experience in connecting to APIs (like ipify) and handling data fetching.
-- **Effective JavaScript Usage**: Enhanced my understanding of JavaScript—structuring code for maintainability and designing user interfaces with JS logic.
+| Concept             | Experience Gained                                                  |
+|---------------------|--------------------------------------------------------------------|
+| **SCSS**            | How to write efficient and organized styles                        |
+| **CSS Grid**        | Responsive and flexible layouts                                    |
+| **min-width**       | Enhancing layout responsiveness                                    |
+| **translateX**      | Positioning elements and smooth transitions                        |
+| **z-index**         | Managing stacking order                                            |
+| **overflow-wrap**   | Word breaking and overflow issues                                  |
+| **Cursor Styling**  | Changing cursor styles for interactivity                           |
+| **@media Queries**  | Responsive interface refinement                                    |
+| **Leaflet.js**      | Interactive maps and API keys                                      |
+| **APIs**            | Connecting and fetching data                                       |
+| **Effective JS**    | Code maintainability and UI design                                 |
 
-Below is an example code snippet illustrating one of the concepts (e.g., a CSS Grid layout):
+<details>
+<summary>Example: CSS Grid Layout</summary>
 
 ```css
 .container {
@@ -87,8 +105,10 @@ Below is an example code snippet illustrating one of the concepts (e.g., a CSS G
   overflow-wrap: break-word;
 }
 ```
+</details>
 
-And a simple @media query example:
+<details>
+<summary>Example: @media Query</summary>
 
 ```css
 @media (max-width: 600px) {
@@ -97,37 +117,38 @@ And a simple @media query example:
   }
 }
 ```
+</details>
 
-Working through these challenges helped reinforce my knowledge and skills in modern frontend development!
+> Working through these challenges helped reinforce my knowledge and skills in modern frontend development!
 
-### Continued development
-
-
+#### 🎯 Continued Development Goals
 - Build more projects focused on mastering layout structures using CSS Grid and Flexbox.
-- Practice creating complex and responsive layouts to gain deeper confidence in modern CSS techniques.
-- Continue refining my understanding of frontend best practices and UI component layout strategies.
+- Practice creating complex and responsive layouts.
+- Continue refining frontend best practices and UI component layout strategies.
 
-I believe that working on additional projects will help me become more comfortable and proficient in building well-structured, responsive web interfaces.
+---
 
+### 📎 Useful Resources
 
-### Useful resources
+- [Kısaca SCSS - Medium](https://medium.com/bursa-i-o/k%C4%B1saca-scss-f026566182cd)  
+- [Leaflet.js Documentation](https://leafletjs.com/)  
+- [GitHub Copilot](https://github.com/features/copilot)  
+- [CSS Border & Outline Generator](https://html-css-js.com/css/generator/border-outline/)  
 
-- [Kısaca SCSS - Medium](https://medium.com/bursa-i-o/k%C4%B1saca-scss-f026566182cd) – A helpful Turkish article that gave me a clear understanding of SCSS basics and usage.
-- [Leaflet.js Documentation](https://leafletjs.com/) – The official documentation, which was essential for learning how to implement interactive maps.
-- [GitHub Copilot](https://github.com/features/copilot) – An AI coding assistant that accelerated my workflow and helped find solutions faster.
-- [CSS Border & Outline Generator](https://html-css-js.com/css/generator/border-outline/) – An online tool I used for easily generating CSS border and outline styles.
+---
 
-### AI Collaboration
+### 🤖 AI Collaboration
 
 During this project, I made effective use of AI-powered tools to streamline development and planning:
 
-- **GitHub Copilot**: I used Copilot extensively for code completion, writing boilerplate, and accelerating the development workflow. It was particularly helpful in suggesting efficient solutions and reducing repetitive coding tasks.
-- **Blackbox AI**: I leveraged Blackbox AI for project planning and brainstorming. It helped me outline features, clarify implementation steps, and consider alternatives during the architectural phase.
+- **GitHub Copilot**: Extensive use for code completion, boilerplate, and efficient solutions.
+- **Blackbox AI**: Project planning, brainstorming, outlining features, and architectural alternatives.
 
-Using these AI assistants allowed me to work more efficiently and focus on solving complex problems instead of spending time on repetitive tasks. Both tools provided valuable suggestions, although I always reviewed and validated the code and plans they generated.
+> Both tools provided valuable suggestions, although I always reviewed and validated the code and plans they generated.
 
-## Author
+---
 
-- Website - [Münevver Yıldırım](https://mnevveryild.github.io/my-web-site/)
-- Frontend Mentor - [@mnevveryild](https://www.frontendmentor.io/profile/mnevveryild)
+## 👩‍💻 Author
 
+- Website – [Münevver Yıldırım](https://mnevveryild.github.io/my-web-site/)
+- Frontend Mentor – [@mnevveryild](https://www.frontendmentor.io/profile/mnevveryild)
